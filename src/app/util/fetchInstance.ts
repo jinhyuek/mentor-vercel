@@ -60,7 +60,6 @@ export const fetchWithToken = async <T>(url: string, options: FetchOptions = {})
     // 전체 URL 구성
     const fullURL = `${API_URL}${url}${queryParams}`;
 
-    console.log();
     // Fetch 요청
     const response = await fetch(fullURL, {
         method: options.method || 'GET',

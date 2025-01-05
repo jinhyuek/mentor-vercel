@@ -1,3 +1,6 @@
+// export const dynamic = 'force-dynamic';
+// export const revalidate = 0;
+
 import { dehydrate, HydrationBoundary, QueryClient } from '@tanstack/react-query';
 import PostsRequests from './_component/PostsRequests';
 import FilterNav from '../_component/postsNav/FilterNav';

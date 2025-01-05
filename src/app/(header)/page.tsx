@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import React from 'react';
 import HomeMain from './_component/HomeMain';
 import { QueryClient, dehydrate, HydrationBoundary } from '@tanstack/react-query';
@@ -9,7 +10,6 @@ import HomeSearch from './_component/HomeSearch/HomeSearch';
 import { QUEST_SUBBOARD_QUERYKEY, REQUEST_SUBBOARD_QUERYKEY } from '../queryKeys/subBoardKey';
 import { getHomeHotSubBoards } from './_lib/homeHotContentService';
 import getQueryClient from '../_component/getQueryClient';
-import Axios from '../util/axiosInstance';
 async function HomePage() {
     const queryClient = getQueryClient();
 

@@ -1,3 +1,5 @@
+// export const dynamic = 'force-dynamic';
+// export const revalidate = 0;
 import React from 'react';
 import PostsMentor from './_component/PostsMentor';
 import { auth } from '@/auth';

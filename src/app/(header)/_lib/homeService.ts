@@ -1,16 +1,9 @@
 import { MentorResponseType } from '@/app/Models/mentorType';
-import { PageInfotype } from '@/app/Models/pageInfoType';
-import { ErrorResponse, FetchErrorResponseType } from '@/app/Models/AxiosResponse';
-import Axios from '@/app/util/axiosInstance';
+import { FetchErrorResponseType } from '@/app/Models/AxiosResponse';
 import { useQuery } from '@tanstack/react-query';
-import { AxiosError } from 'axios';
 import { SubBoardResponseType } from '@/app/Models/subBoardType';
 import { HOME_MENTOR_QUERYKEY } from '@/app/queryKeys/mentorKey';
-import {
-    QUEST_SUBBOARD_QUERYKEY,
-    REQUEST_SUBBOARD_QUERYKEY,
-    createSubBoardPostsKey,
-} from '@/app/queryKeys/subBoardKey';
+import { QUEST_SUBBOARD_QUERYKEY, REQUEST_SUBBOARD_QUERYKEY } from '@/app/queryKeys/subBoardKey';
 import { fetchWithToken } from '@/app/util/fetchInstance';
 
 export const getHomeMentorPosts = async (): Promise<MentorResponseType> => {

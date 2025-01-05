@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 import type { NextRequest } from 'next/server';
 import { revalidateTag } from 'next/cache';
 
