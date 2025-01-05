@@ -47,7 +47,7 @@
         "react-svg": "^16.1.33",
         "react-time-picker": "^6.6.0",
         "react-toastify": "^10.0.5",
-        "sharp": "^0.33.5",
+        "sharp": "^0.32.6",
         "smart-quill-resize-module": "^2.0.1",
         "socket.io-client": "^4.7.5",
         "sockjs-client": "^1.6.1",
