@@ -25,7 +25,7 @@ declare module 'next-auth' {
         memberDTO: MemberDto;
     }
     // interface Session {
-    //     accessToken: string;
+    //     accessTokens: string;
     // }
 }
 type RefreshTokenResponse = {
